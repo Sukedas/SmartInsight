@@ -1,0 +1,47 @@
+Requerimientos Funcionales 
+
+RF1. Registro de transacciones
+El sistema debe permitir registrar transacciones financieras (ingresos y gastos), incluyendo atributos como: fecha, monto, categoría (comida, transporte, ocio, etc.) y tipo de transacción.
+
+RF2. Clasificación de transacciones
+El sistema debe permitir clasificar los gastos según su naturaleza (recurrentes o esporádicos), para facilitar el análisis de hábitos financieros.
+
+RF3. Visualización de gastos por categoría
+El sistema debe generar gráficos que muestren la distribución de gastos por categoría en un periodo determinado (mensual), permitiendo identificar en qué se gasta más dinero.
+
+RF4. Comparación presupuesto vs gasto real
+El sistema debe generar una visualización comparativa entre el presupuesto definido por el usuario y los gastos reales ejecutados en un periodo determinado.
+
+RF5. Consulta de movimientos por periodo
+El sistema debe permitir visualizar ingresos y gastos en diferentes escalas de tiempo: diario, semanal, mensual y anual.
+
+RF6. Gestión de presupuestos
+El sistema debe permitir al usuario definir presupuestos por categoría o generales para un periodo determinado.
+
+RF7. Identificación del día de mayor gasto
+El sistema debe identificar y mostrar el día en el que se registró el mayor gasto dentro de un mes.
+
+RF8. Integración con base de datos existente
+El sistema debe conectarse a la tabla de transacciones existente del usuario para realizar el análisis automáticamente.
+
+RF9. Visualización clara de información
+El sistema debe mostrar los resultados mediante gráficos con etiquetas claras, títulos y leyendas comprensibles para el usuario.
+
+Requerimientos No Funcionales 
+
+RNF1. Accesibilidad multiplataforma
+El sistema debe ser accesible desde computadores por medio de una aplicación.
+
+RNF2. Usabilidad
+El sistema debe contar con una interfaz intuitiva, con menús interactivos y fáciles de usar, que no requieran conocimientos técnicos avanzados.
+
+RNF3. Seguridad de la información
+El sistema debe garantizar la protección de los datos personales y financieros del usuario, cumpliendo con la normativa de habeas data.
+
+RNF4. Rendimiento
+El sistema debe generar los análisis y gráficos en un tiempo de respuesta corto (menor a 3 segundos para consultas estándar).
+
+RNF5. Calidad de visualización
+Los gráficos deben ser claros, legibles y correctamente etiquetados para evitar confusión en la interpretación de los datos.
+
+
